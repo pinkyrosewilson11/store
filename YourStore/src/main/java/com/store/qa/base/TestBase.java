@@ -7,7 +7,7 @@ public class TestBase {
 
 	WebDriver w= new ChromeDriver();
 	
-	public void main() throws InterruptedException
+	public void initialization() throws InterruptedException
 	{
 		w.get("http://tutorialsninja.com/demo/index.php?route=common/home");
 		w.manage().window().maximize();
