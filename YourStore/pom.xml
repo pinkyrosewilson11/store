@@ -39,15 +39,22 @@
 
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.0.0-beta-1</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-chrome-driver</artifactId>
-    <version>4.0.0-alpha-7</version>
+    <version>4.0.0-beta-2</version>
 </dependency>
 
 
 <dependency>   
             <groupId>io.github.bonigarcia</groupId>    
             <artifactId>webdrivermanager</artifactId>   
-            <version>1.4.5</version>    
+            <version>4.3.1</version>    
         </dependency>  
 
    <dependency>
@@ -75,7 +82,12 @@
 </dependency>
 
     
-    
+    <dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-jdk14</artifactId>
+    <version>2.0.0-alpha0</version>
+    <scope>runtime</scope>
+</dependency>  
         
     
     
