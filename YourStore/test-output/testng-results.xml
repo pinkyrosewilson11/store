@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-30T15:04:06 AEDT" name="Default suite" finished-at="2021-03-30T15:04:59 AEDT" duration-ms="53609">
+  <suite started-at="2021-03-30T16:00:07 AEDT" name="Default suite" finished-at="2021-03-30T16:01:07 AEDT" duration-ms="59794">
     <groups>
     </groups>
-    <test started-at="2021-03-30T15:04:06 AEDT" name="Default test" finished-at="2021-03-30T15:04:59 AEDT" duration-ms="53609">
+    <test started-at="2021-03-30T16:00:07 AEDT" name="Default test" finished-at="2021-03-30T16:01:07 AEDT" duration-ms="59794">
       <class name="com.store.qa.testcases.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.qa.testcases.RegisterTest@481a996b]" started-at="2021-03-30T15:04:06 AEDT" name="setup" finished-at="2021-03-30T15:04:14 AEDT" duration-ms="8723" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.qa.testcases.RegisterTest@481a996b]" started-at="2021-03-30T16:00:07 AEDT" name="setup" finished-at="2021-03-30T16:00:17 AEDT" duration-ms="9876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="NEWRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.store.qa.testcases.RegisterTest@481a996b]" started-at="2021-03-30T15:04:15 AEDT" name="NEWRegister" data-provider="reg" finished-at="2021-03-30T15:04:38 AEDT" duration-ms="22647" status="PASS">
+        <test-method signature="NEWRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.store.qa.testcases.RegisterTest@481a996b]" started-at="2021-03-30T16:00:18 AEDT" name="NEWRegister" data-provider="reg" finished-at="2021-03-30T16:00:43 AEDT" duration-ms="25057" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[pinkyrose]]>
+                <![CDATA[pinkym]]>
               </value>
             </param>
             <param index="1">
@@ -25,7 +25,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[pinky1234@gmail.com]]>
+                <![CDATA[pimgggggk@gmail.com]]>
               </value>
             </param>
             <param index="3">
@@ -47,11 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NEWRegister -->
-        <test-method signature="NEWRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.store.qa.testcases.RegisterTest@481a996b]" started-at="2021-03-30T15:04:38 AEDT" name="NEWRegister" data-provider="reg" finished-at="2021-03-30T15:04:59 AEDT" duration-ms="21190" status="PASS">
+        <test-method signature="NEWRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.store.qa.testcases.RegisterTest@481a996b]" started-at="2021-03-30T16:00:43 AEDT" name="NEWRegister" data-provider="reg" finished-at="2021-03-30T16:01:07 AEDT" duration-ms="23736" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[harrych]]>
+                <![CDATA[harrym]]>
               </value>
             </param>
             <param index="1">
@@ -61,12 +61,12 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[pij33s@gmail.com]]>
+                <![CDATA[pngggggggnoh@gmail.com]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[445085.0]]>
+                <![CDATA[4.695854E8]]>
               </value>
             </param>
             <param index="4">

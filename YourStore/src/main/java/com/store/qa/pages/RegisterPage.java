@@ -27,6 +27,7 @@ public class RegisterPage {
 	@FindBy(xpath="//body/div[@id='account-register']/div[1]/div[1]/form[1]/div[1]/div[1]/input[2]") WebElement continue1;
 	@FindBy(xpath="//a[contains(text(),'Continue')]") WebElement continue2;
 	@FindBy(xpath="//body/div[@id='account-account']/div[1]/aside[1]/div[1]/a[13]") WebElement logout;
+	@FindBy(xpath="//a[contains(text(),'Continue')]") WebElement continue3;
 	
 	utilpage util;
 	
@@ -79,7 +80,7 @@ public class RegisterPage {
 		Thread.sleep(1000);
 		email.sendKeys(em);
 		Thread.sleep(1000);
-		Telephone.sendKeys(pass);
+		Telephone.sendKeys(th);
 		Thread.sleep(1000);
 		password.sendKeys(pass);
 		Thread.sleep(1000);
@@ -95,6 +96,8 @@ public class RegisterPage {
 		Thread.sleep(2000);
 		//util.xpath_click(cart);
 		util.xpath_click(logout);
+		Thread.sleep(2000);
+		util.xpath_click(continue3);
 		Thread.sleep(2000);
 	 }
 		 
