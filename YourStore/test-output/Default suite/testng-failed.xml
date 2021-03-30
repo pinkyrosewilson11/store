@@ -6,7 +6,7 @@
       <class name="com.store.qa.testcases.RegisterTest">
         <methods>
           <include name="setup"/>
-          <include name="NEWRegister"/>
+          <include name="NEWRegister" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.store.qa.testcases.RegisterTest -->
     </classes>
