@@ -35,6 +35,14 @@ public class utilpage implements elemnetsinterface {
 		
 	}
 	
+	public String login(int a, int b)
+	{
+		row=s1.getRow(a);
+		cell=row.getCell(b);
+	    String d= cell.getStringCellValue();
+	    return d;
+	}
+	
 	public int RowCount(String Sheetname) {
 		// TODO Auto-generated method stub
 		
