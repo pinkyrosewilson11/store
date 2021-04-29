@@ -25,7 +25,7 @@ public class LoginTest {
   public void setup() throws InterruptedException {
 	  
 	  driver=new ChromeDriver();
-	  driver.get("http://tutorialsninja.com/demo/");
+	  driver.get("http://tutorialsninja.com/demo");
 	  driver.manage().window().maximize();
 	  Thread.sleep(1000);
 	  driver.manage().deleteAllCookies();
@@ -49,5 +49,7 @@ public class LoginTest {
 	  Thread.sleep(1000);
   }
   
+  
+ 
   
 }

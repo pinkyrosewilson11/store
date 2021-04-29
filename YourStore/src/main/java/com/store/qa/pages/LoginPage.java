@@ -53,7 +53,7 @@ public class LoginPage {
 		Thread.sleep(1000);
 		util.xpath_click(loginbutton);
 		String Actualtitle=driver.getTitle();
-		System.out.print("Actual text is ="+ Actualtitle+"  ");
+		//System.out.print("Actual text is ="+ Actualtitle+"  ");
 		
 		return util.titleValidate(expectedtitle, Actualtitle);
 		
